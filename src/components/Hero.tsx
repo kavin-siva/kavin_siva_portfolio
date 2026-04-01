@@ -34,7 +34,8 @@ export function Hero() {
               <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="/resume.pdf"
+              href="/Kavin_Sivasubramanian_Resume_UU.pdf"
+              download="Kavin_Sivasubramanian_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-full bg-card border border-border text-foreground font-medium hover:bg-card/80 transition-all flex items-center gap-2"
