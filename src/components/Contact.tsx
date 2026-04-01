@@ -19,7 +19,7 @@ export function Contact() {
           >
             <h2 className="text-sm font-bold tracking-widest text-primary uppercase mb-6">What's Next?</h2>
             <p className="text-lg text-foreground/70 mb-12 leading-relaxed">
-              I'm currently looking for new opportunities in software engineering, data engineering, and distributed systems. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+              I'm currently looking for new opportunities in software engineering, data engineering, and distributed systems. Long-term, I aspire to architect resilient, large-scale backend systems and drive impactful cybersecurity solutions that solve complex engineering challenges. Whether you have a question or just want to say hi, I'll try my best to get back to you!
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
