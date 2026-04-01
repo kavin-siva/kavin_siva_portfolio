@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ArrowRight, Mail } from 'lucide-react';
+import { ArrowRight, Download, Mail } from 'lucide-react';
 
 export function Hero() {
   return (
@@ -32,6 +32,15 @@ export function Hero() {
             >
               View Projects
               <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+            </a>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 rounded-full bg-card border border-border text-foreground font-medium hover:bg-card/80 transition-all flex items-center gap-2"
+            >
+              <Download size={18} />
+              Resume
             </a>
             <a
               href="#contact"
