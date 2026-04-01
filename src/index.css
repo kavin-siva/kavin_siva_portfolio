@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0a;
+  --color-foreground: #fafafa;
+  --color-primary: #800000;
+  --color-primary-foreground: #ffffff;
+  --color-accent: #d2b48c;
+  --color-accent-foreground: #0a0a0a;
+  --color-card: #141414;
+  --color-border: #262626;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+/* Subtle gradient background effect */
+.bg-gradient-radial {
+  background: radial-gradient(circle at center, rgba(128, 0, 0, 0.15) 0%, rgba(10, 10, 10, 1) 70%);
+}
