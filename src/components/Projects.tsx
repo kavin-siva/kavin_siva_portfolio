@@ -12,6 +12,28 @@ const projects = [
     impact: 'Helps users instantly filter deceptive articles with detailed reasoning and bias breakdowns.',
     link: 'https://ai-fake-news-beryl.vercel.app/',
     images: ['/fake-news-1.jpg', '/fake-news-2.jpg'],
+    discoveryDetails: [
+      {
+        label: "Discovery Project Idea",
+        content: "The initial pitch was to create a reliable verification system to combat misinformation, outputting a 0-100 authenticity score through NLP and signal processing on article text."
+      },
+      {
+        label: "Project Progress",
+        content: "I started by gathering article data and training the Python machine learning model. Once the backend was working, I built the React website and connected the two parts together."
+      },
+      {
+        label: "Successes and Failures",
+        content: "A big win was getting the bias detection to be highly accurate! My main challenge was figuring out how to host the heavy ML model online and set up the API. I solved this by packaging the backend into a container so it could communicate smoothly with the frontend."
+      },
+      {
+        label: "ECE Skills Gained",
+        content: "Gained applied ECE skills, including translating Digital Signal Processing (DSP) concepts into text feature extraction, hardware-accelerated ML inference, and full-stack software integration."
+      },
+      {
+        label: "Final Thoughts",
+        content: "This project was a highly rewarding experience that solidified my interest in my chosen thread at the intersection of software and machine learning. I plan to continue iterating on the algorithm and potentially expand it into a real-time browser extension."
+      }
+    ]
   },
   {
     title: 'From Zero to Python Hero',
@@ -97,6 +119,17 @@ export function Projects() {
                   <span className="text-sm font-bold text-primary uppercase tracking-wider block mb-1">Impact</span>
                   <p className="text-foreground font-medium text-sm">{project.impact}</p>
                 </div>
+                
+                {project.discoveryDetails && (
+                  <div className="mt-6 flex flex-col gap-4 border-t border-border/50 pt-6">
+                    {project.discoveryDetails.map((detail, dIndex) => (
+                      <div key={dIndex}>
+                        <span className="text-xs font-bold text-accent uppercase tracking-wider block mb-1">{detail.label}</span>
+                        <p className="text-foreground/80 text-sm">{detail.content}</p>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
 
               <div className="flex flex-wrap gap-2 mt-auto pt-6 border-t border-border/50">
