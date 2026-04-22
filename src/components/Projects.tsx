@@ -4,6 +4,16 @@ import { ExternalLink } from 'lucide-react';
 
 const projects = [
   {
+    title: 'AI Fake News Detector',
+    type: 'Full-Stack Software',
+    problem: 'The rapid spread of misinformation makes it difficult for readers to manually verify article credibility.',
+    solution: 'Built an NLP-powered engine using text analysis and signal processing concepts to output a 0-100 authenticity score.',
+    tech: ['React', 'Python', 'NLP', 'Digital Signal Processing (DSP) Concepts', 'Hardware-Accelerated ML'],
+    impact: 'Helps users instantly filter deceptive articles with detailed reasoning and bias breakdowns.',
+    link: 'https://ai-fake-news-beryl.vercel.app/',
+    images: ['/fake-news-1.jpg', '/fake-news-2.jpg'],
+  },
+  {
     title: 'From Zero to Python Hero',
     type: 'Publication',
     problem: 'Beginners lack a structured, hands-on approach to learning Python.',
@@ -34,7 +44,7 @@ export function Projects() {
           </h3>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <motion.div
               key={index}
@@ -60,6 +70,19 @@ export function Projects() {
               <h4 className="text-2xl font-bold mb-4 group-hover:text-accent transition-colors">
                 {project.title}
               </h4>
+
+              {project.images && (
+                <div className="flex flex-col gap-4 mb-6">
+                  {project.images.map((img, i) => (
+                    <img
+                      key={i}
+                      src={img}
+                      alt={`${project.title} preview ${i + 1}`}
+                      className="w-full h-40 md:h-48 object-cover object-left-top rounded-xl border border-border shadow-sm bg-black/10 transition-transform hover:scale-[1.02]"
+                    />
+                  ))}
+                </div>
+              )}
 
               <div className="space-y-4 mb-8 flex-grow">
                 <div>
