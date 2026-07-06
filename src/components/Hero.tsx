@@ -22,7 +22,7 @@ export function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-foreground/70 max-w-xl leading-relaxed">
-            Computer Engineering @ Georgia Tech specializing in Cybersecurity + Distributed Systems and Software Design.
+            Computer Engineering @ Georgia Tech specializing in Cybersecurity + Product Management and Software Design.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-4">

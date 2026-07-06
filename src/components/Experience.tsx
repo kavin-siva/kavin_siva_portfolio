@@ -3,9 +3,21 @@ import { motion } from 'motion/react';
 
 const experiences = [
   {
+    role: 'Technical Product Manager Intern',
+    company: 'Fiserv',
+    date: 'June 2026 – Present',
+    metrics: [
+      'Analyzed 4 operational workflows, reducing manual task time by 30%',
+      'Translated stakeholder needs into user stories using JIRA + Confluence',
+      'Delivered 4 automations supporting 80+ projects (saved 5 hours/week)',
+      'Managed 15 compliance reports (98% accuracy) for senior leadership',
+      'Presented 5 quarterly executive decks on portfolio metrics',
+    ],
+  },
+  {
     role: 'Data Engineer Intern',
     company: 'State Farm',
-    date: 'Oct 2025 – Present',
+    date: 'Oct 2025 – May 2026',
     metrics: [
       'Managed 1000+ customer records',
       'Improved data accuracy + reporting',

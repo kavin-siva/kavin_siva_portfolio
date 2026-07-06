@@ -28,8 +28,8 @@ export function About() {
                 <div className="w-12 h-12 rounded-2xl bg-accent/10 flex items-center justify-center text-accent">
                   <Terminal size={24} />
                 </div>
-                <h4 className="font-semibold">Distributed Systems</h4>
-                <p className="text-sm text-foreground/60">Architecting resilient and scalable backend services.</p>
+                <h4 className="font-semibold">Product Management</h4>
+                <p className="text-sm text-foreground/60">Bridging engineering and business to drive product strategy.</p>
               </div>
               <div className="flex flex-col gap-3">
                 <div className="w-12 h-12 rounded-2xl bg-foreground/10 flex items-center justify-center text-foreground">
@@ -57,7 +57,7 @@ export function About() {
                 <p className="pl-4">location: <span className="text-green-400">'Cumming, GA'</span>,</p>
                 <p className="pl-4">interests: [</p>
                 <p className="pl-8 text-green-400">'Cybersecurity',</p>
-                <p className="pl-8 text-green-400">'Distributed Systems',</p>
+                <p className="pl-8 text-green-400">'Product Management',</p>
                 <p className="pl-8 text-green-400">'Software Design'</p>
                 <p className="pl-4">]</p>
                 <p>{'};'}</p>

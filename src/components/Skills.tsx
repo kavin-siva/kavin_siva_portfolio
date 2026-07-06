@@ -18,7 +18,7 @@ const skills = [
     icon: <Lightbulb size={24} />,
     items: [
       'Data Structures & Algorithms',
-      'Distributed Systems',
+      'Product Management',
       'Cybersecurity',
       'REST APIs',
       'System Design',
