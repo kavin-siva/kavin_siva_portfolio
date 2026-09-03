@@ -97,8 +97,8 @@ export function ResumePreview({ isOpen, onClose }: ResumePreviewProps) {
 
             {/* Primary Download Button */}
             <a
-              href="/Kavin_resume_pdf.pdf"
-              download="Kavin_resume_pdf.pdf"
+              href="/Kavin_Sivasubramanian_Resume.pdf"
+              download="Kavin_Sivasubramanian_Resume.pdf"
               className="px-4 py-2 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 text-xs sm:text-sm font-semibold transition-all flex items-center gap-2 shadow-md hover:shadow-lg cursor-pointer"
               title="Download official PDF resume"
             >
@@ -192,12 +192,12 @@ export function ResumePreview({ isOpen, onClose }: ResumePreviewProps) {
           >
             {/* The Document Visual */}
             <img
-              src="/resume-sheet.png"
-              srcSet="/resume-sheet.png 1x, /resume-sheet-2x.png 2x"
+              src="/resume-sheet.png?v=2"
+              srcSet="/resume-sheet.png?v=2 1x, /resume-sheet-2x.png?v=2 2x"
               onError={(e) => {
                 // Fallbacks in case of direct path request
                 if (!e.currentTarget.src.includes('Screenshot')) {
-                  e.currentTarget.src = '/Screenshot_latest.png';
+                  e.currentTarget.src = '/Screenshot_latest.png?v=2';
                 }
               }}
               alt="Kavin Sivasubramanian Resume"
@@ -206,7 +206,7 @@ export function ResumePreview({ isOpen, onClose }: ResumePreviewProps) {
             />
 
             {/* Clickable Header Overlay Hotspots */}
-            <div className="absolute top-[7.2%] left-0 right-0 h-[2.8%] flex items-center justify-center pointer-events-none">
+            <div className="absolute top-[7.4%] left-0 right-0 h-[2.5%] flex items-center justify-center pointer-events-none">
               <div className="w-[88%] h-full flex items-center justify-center gap-2 pointer-events-auto">
                 <a
                   href="tel:4708921812"
@@ -248,8 +248,8 @@ export function ResumePreview({ isOpen, onClose }: ResumePreviewProps) {
         {/* Bottom Action Strip */}
         <div className="no-print flex flex-wrap items-center justify-center gap-3 mt-8 pt-6 border-t border-border">
           <a
-            href="/Kavin_resume_pdf.pdf"
-            download="Kavin_resume_pdf.pdf"
+            href="/Kavin_Sivasubramanian_Resume.pdf"
+            download="Kavin_Sivasubramanian_Resume.pdf"
             className="px-6 py-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 font-semibold transition-all flex items-center gap-2 shadow-lg hover:shadow-xl cursor-pointer"
           >
             <Download size={18} />

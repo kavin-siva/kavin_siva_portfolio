@@ -1,0 +1,73 @@
+                                                       Kavin Sivasubramanian 
+                    Atlanta, GA | (470) 892-1812 | kavinsivasu@gmail.com | US Permanent Resident | Linkedin |Portfolio | GitHub 
+                                                                           
+             ______________________________________________________________________________________________________ 
+              
+             EDUCATION  
+             ______________________________________________________________________________________________________ 
+              
+              
+              
+             Georgia Institute of Technology, Atlanta, GA, GPA: 3.92                                                                                       December 2027 
+                 ●   Major: Bachelor of Computer Engineering (Concentrated in Cybersecurity and Distributed Systems/Software Design). 
+                 ●   Technical Skills: Python, Java, C, JavaScript, SQL, Bash/Shell, React, NumPy, Data Structures & Algorithms, 
+                     Object-Oriented Design, Full-Stack Development, Frontend Development, Backend Development, REST API Design, 
+                     API Integration, Application Architecture, Client-Server Architecture, Databases (MySQL, MongoDB), Software Testing, 
+                     Unit Testing, Code Review, Debugging, Git/GitHub, Jenkins, CI/CD, Linux/Unix, AWS, .NET, Agile/Scrum, SDLC. 
+             PROFESSIONAL EXPERIENCE 
+             _____________________________________________________________________________________________________ 
+              
+              
+              
+             Fiserv, Technical Product Manager Intern (AI/ML development), Alpharetta, GA                                June 2026 - August 2026 
+                 ●   Engineered 4 full-stack AI/ML automation agents using Python, NumPy, GitHub Copilot & Claude Code, architecting 
+                     scripting logic and exception handling for API integration across a 40-person team, cutting manual tasks 50%. 
+                 ●   Designed API integration and exception-handling workflows for automation agents in 55+ projects, partnering 
+                     with SWEs on application architecture and system-level design to cut project turnaround by 5 hours/week. 
+                 ●   Owned compliance reporting pipeline, performing data cleaning and integration to resolve 85 data exceptions and 
+                     maintain 98% accuracy across 15 reports, enabling quantitative, data-driven decision-making for senior leadership. 
+                 ●   Debugged and maintained reporting infrastructure and data pipelines supporting roadmap tracking for 10+ senior 
+                     stakeholders, identifying and resolving data integrity issues to optimize product and engineering workflows each quarter. 
+             State Farm Insurance, Data Engineering Intern, Metro Atlanta, GA                                                October 2025 - May 2026 
+                 ●   Supported quantitative data decisions in a financial services environment by cleaning and validating 1,000+ structured 
+                     records across networked infrastructure and data pipelines using Java and Excel, enhancing reliability of reporting. 
+                 ●   Applied Python/NumPy analysis to 500+ customer interaction records sourced from Salesforce, MongoDB, and Spark 
+                     data systems, translating CRM metrics into insights supporting risk assessment, retention strategy and lead qualification. 
+                 ●   Redesigned data structures and query logic within large-scale, CRM-driven reporting systems, reducing manual processing 
+                     effort by 37% across 12 major workflows and improving cross-functional access to insights for reporting teams. 
+                 ●   Executed UAT and data validation procedures, documented test results and reporting workflows in Confluence, and 
+                     communicated findings through Excel, Tableau, PowerPoint, and SSRS to improve reporting and cross-team collaboration. 
+             Prompt Mail Solutions, Software and Application Engineering Intern, Metro Atlanta, GA            October 2023 - December 2024 
+                 ●   Engineered a full-stack web application serving 300+ users with Java, .NET, MySQL, and REST APIs, building 
+                     object-oriented backend services, secure authentication workflows, and scalable database-driven frontend features. 
+                 ●   Developed and shipped code features using Git and Bitbucket, contributing to code reviews, debugging implementation 
+                     issues, and working across Agile sprint cycles to deliver reliable, maintainable, high-quality production software releases. 
+                 ●   Implemented and tested backend application features using Java, .NET, MySQL, and REST APIs, resolving integration 
+                     and data-flow issues to improve reliability, maintainability, and performance across production software features. 
+             Assets Edge, DevOps and E-commerce Intern, Cumming, GA                                                                  June 2022 - August 2022 
+                 ●   Documented deployment gaps and core dependencies with Jenkins, Docker and shell scripting, defining engineering 
+                     requirements that drove scalable CI/CD pipeline improvements and more reliable production software releases. 
+                 ●   Optimized Jenkins CI/CD pipelines and Docker/Kubernetes deployment workflows, partnering with DevOps engineers 
+                     to reduce deployment time by ~20%, improve build reliability, and minimize release bugs in production systems. 
+                 ●   Tested backend and e-commerce app features by writing unit tests, debugging 20+ software issues, supporting REST API 
+                     integrations, and contributing to Agile code reviews to improve production application reliability and code quality. 
+                 ●   Performed root cause analysis on system logs and operational datasets in Linux/Unix env. using Splunk, documenting 
+                     findings and recommended actions in Confluence to improve system reliability and incident response processes. 
+             PROJECTS & LEADERSHIP. 
+             ______________________________________________________________________________________________________ 
+              
+              
+             Automated Misinformation Detection Engine, Project Developer, Atlanta, GA                                        March 2026 - Present 
+                 ●   Built and deployed a Python-based risk-scoring system using custom data structures/algorithms, statistical/NLP models, 
+                     and information retrieval via REST APIs, achieving ~90% classification accuracy and <200ms inference latency. 
+                 ●   Architected a full-stack React frontend for an AI/ML-driven risk engine to visualize a 0-100 credibility score, reducing 
+                     false positives 25% and enabling users to analyze and interpret results with dynamic, real-time feedback. 
+             Georgia Tech Coding Club, VP of Artificial Intelligence/Machine Learning, Atlanta, GA                             August 2025 - Present 
+                 ●   Organized coding workshops focused on core computing concepts to build members’ network and programming skills. 
+                 ●   Increased club meeting attendance and membership to 60+ members by fostering a collaborative technical community.  
+             LULU Bookstore, Co-Author, Cumming, GA                                                                               July 2023 - Present 
+                 ●   Co-authored 2 beginner-focused technical books on Python and Artificial Intelligence, developing 50+ pages of 
+                     instructional content covering algorithms, data structures, control flow, debugging techniques, and foundational concepts. 
+                 ●   Created 30+ step-by-step tutorials and annotated code examples using Python scripting, API integration, and data 
+                     handling workflows, translating complex technical concepts into clear, executable learning materials for the readers. 
+              
