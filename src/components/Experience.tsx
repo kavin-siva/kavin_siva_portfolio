@@ -5,7 +5,7 @@ const experiences = [
   {
     role: 'Technical Product Manager Intern',
     company: 'Fiserv',
-    date: 'June 2026 – Present',
+    date: 'June 2026 – Aug 2026',
     metrics: [
       'Analyzed 4 operational workflows, reducing manual task time by 30%',
       'Translated stakeholder needs into user stories using JIRA + Confluence',
@@ -28,7 +28,7 @@ const experiences = [
   {
     role: 'Software Engineering Intern',
     company: 'Prompt Mail Solutions',
-    date: 'Summer 2025',
+    date: 'Oct 2023 – Dec 2024',
     metrics: [
       'Built full-stack email automation system (300+ users)',
       'Processed 2000+ events',
@@ -39,7 +39,7 @@ const experiences = [
   {
     role: 'Research Intern',
     company: 'University of Georgia',
-    date: 'Summer 2024',
+    date: 'Summer 2023',
     metrics: [
       'Bioinformatics + data analysis',
       'Identified evolutionary patterns',
@@ -49,7 +49,7 @@ const experiences = [
   {
     role: 'DevOps Intern',
     company: 'Assets Edge',
-    date: 'Summer 2023',
+    date: 'Summer 2022',
     metrics: [
       'Improved CI/CD (20% faster deploys)',
       'Debugged 20+ issues',
