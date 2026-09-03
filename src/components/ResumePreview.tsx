@@ -193,10 +193,11 @@ export function ResumePreview({ isOpen, onClose }: ResumePreviewProps) {
             {/* The Document Visual */}
             <img
               src="/resume-sheet.png"
+              srcSet="/resume-sheet.png 1x, /resume-sheet-2x.png 2x"
               onError={(e) => {
-                // Robust fallbacks
-                if (!e.currentTarget.src.includes('Resume_new')) {
-                  e.currentTarget.src = '/Resume_new.png';
+                // Fallbacks in case of direct path request
+                if (!e.currentTarget.src.includes('Screenshot')) {
+                  e.currentTarget.src = '/Screenshot_latest.png';
                 }
               }}
               alt="Kavin Sivasubramanian Resume"
