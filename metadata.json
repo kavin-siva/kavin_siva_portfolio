@@ -1,5 +1,6 @@
 {
   "name": "Kavin Siva Portfolio",
   "description": "Personal portfolio website for Kavin Sivasubramanian, Computer Engineering student at Georgia Tech.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

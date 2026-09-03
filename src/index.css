@@ -25,3 +25,20 @@ body {
 .bg-gradient-radial {
   background: radial-gradient(circle at center, rgba(128, 0, 0, 0.15) 0%, rgba(10, 10, 10, 1) 70%);
 }
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  #resume-document {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+}
